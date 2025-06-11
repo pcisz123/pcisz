@@ -1,7 +1,7 @@
 #include <LPC21xx.H>
 #include "led.h"
 #include "timer_interrupts.h"
-
+// zmiana!
 #define DetectorOut_bm 1<<10
 
 enum DetectorState {ACTIVE, INACTIVE};
