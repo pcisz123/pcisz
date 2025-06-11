@@ -1,0 +1,20 @@
+Dependencies for Project 'Serwo', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559D3D30)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\main.c)(0x68493310)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\student\Desktop\Serwo\keyboard.h)(0x6411BF43)
+I (C:\Users\student\Desktop\Serwo\servo.h)(0x646B9DFB)
+F (.\timer.c)(0x644705CD)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x00000000)
+F (.\led.c)(0x6411C317)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x00000000)
+I (C:\Users\student\Desktop\Serwo\led.h)(0x6411C31C)
+F (.\timer_interrupts.c)(0x64499089)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\timer_interrupts.o --omf_browse .\objects\timer_interrupts.crf --depend .\objects\timer_interrupts.d)
+I (C:\Users\student\Desktop\Serwo\timer_interrupts.h)(0x6449905A)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x00000000)
+F (.\keyboard.c)(0x6411C00C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\keyboard.o --omf_browse .\objects\keyboard.crf --depend .\objects\keyboard.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x00000000)
+I (C:\Users\student\Desktop\Serwo\keyboard.h)(0x6411BF43)
+F (.\servo.c)(0x647616F9)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\objects\servo.o --omf_browse .\objects\servo.crf --depend .\objects\servo.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC21xx.H)(0x00000000)
+I (C:\Users\student\Desktop\Serwo\led.h)(0x6411C31C)
+I (C:\Users\student\Desktop\Serwo\timer_interrupts.h)(0x6449905A)
