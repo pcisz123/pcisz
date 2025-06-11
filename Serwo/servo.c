@@ -32,7 +32,7 @@ enum DetectorState eReadDetector()
 		return INACTIVE;
 	}
 }
-
+//hello
 void Automat()
 {
 	switch(sServo.eState)
